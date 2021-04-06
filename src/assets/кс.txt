@@ -1,0 +1,16 @@
+import image from './assets/42.jpg'
+
+export const model = [ 
+    {type: 'title', value: 'Киська, Принцпесска, Кенгуренок, Bummy', options: {
+        tag: 'h2',
+        styles: {
+        background: 'linear-gradient(to right, #df73ff, #fff)',
+        colour: '#fff',
+        'text-align': 'center',
+        padding: '1.5rem'
+        }
+    }},
+    {type: 'text', value: 'Пару слов о моей самой красивой девочке в мире'}, 
+    {type: 'columns', value: ['Ты самое лучшее, что со мной происходило в жизни','И я бы хотел, чтобы этот момент, момент того, что мы вместе, никогда не заканчивался.',' Хочу жть этим момент бесконечно, ведь ты - самое лучшее, что со мной происходило, происходит и будет происходить, я люблю тебя киська)']},
+    {type: 'image', value:image}
+    ]
